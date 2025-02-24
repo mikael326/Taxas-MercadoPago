@@ -1,4 +1,4 @@
-let cacheName = 'cache-v1';
+let cacheName = 'cache-v2';
 
 self.addEventListener('install', (e) => {
   let cache = caches.open(cacheName).then((c) => {
