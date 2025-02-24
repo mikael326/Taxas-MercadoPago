@@ -4,8 +4,8 @@
     "display": "minimal-ui",
     "scope": "https://mikael326.github.io/Taxas-MercadoPago/",
     "start_url": "https://mikael326.github.io/Taxas-MercadoPago/",
-    "name": "pwa-taxas-MercadoPago",
-    "short_name": "pwaCalculadora",
+    "name": "calculadora de taxas MercadoPago",
+    "short_name": "Calculadora MercadoPago",
     "icons": [
         {
             "src": "icon-192x192.png",
