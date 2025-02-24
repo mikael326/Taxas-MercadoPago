@@ -3,16 +3,16 @@ let cacheName = 'cache-v1';
 self.addEventListener('install', (e) => {
   let cache = caches.open(cacheName).then((c) => {
     c.addAll([
-      '/Taxas-MercadoPago/',
-      '/Taxas-MercadoPago/index.html',
-      '/Taxas-MercadoPago/style.css',
-      '/Taxas-MercadoPago/app.js',
-      '/Taxas-MercadoPago/manifest.json',
-      '/Taxas-MercadoPago/icon.png',
-      '/Taxas-MercadoPago/icon-192x192.png',
-      '/Taxas-MercadoPago/icon-256x256.png',
-      '/Taxas-MercadoPago/icon-384x384.png',
-      '/Taxas-MercadoPago/icon-512x512.png',
+      'https://mikael326.github.io/Taxas-MercadoPago/',
+      'https://mikael326.github.io/Taxas-MercadoPago/index.html',
+      'https://mikael326.github.io/Taxas-MercadoPago/style.css',
+      'https://mikael326.github.io/Taxas-MercadoPago/app.js',
+      'https://mikael326.github.io/Taxas-MercadoPago/manifest.json',
+      'https://mikael326.github.io/Taxas-MercadoPago/icon.png',
+      'https://mikael326.github.io/Taxas-MercadoPago/icon-192x192.png',
+      'https://mikael326.github.io/Taxas-MercadoPago/icon-256x256.png',
+      'https://mikael326.github.io/Taxas-MercadoPago/icon-384x384.png',
+      'https://mikael326.github.io/Taxas-MercadoPago/icon-512x512.png',
       'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css',
       'https://cdn.jsdelivr.net/npm/decimal.js@10.3.1/decimal.min.js'
     ]);
@@ -34,7 +34,7 @@ self.addEventListener('fetch', function(event) {
               });
           })
           .catch(function() {
-            return caches.match('/index.html');
+            return caches.match('https://mikael326.github.io/Taxas-MercadoPago/index.html');
           });
       })
   );

@@ -2,8 +2,8 @@
     "theme_color": "#4a90e2",
     "background_color": "#4a90e2",
     "display": "minimal-ui",
-    "scope": "/taxas-MercadoPago/",
-    "start_url": "/taxas-MercadoPago/",
+    "scope": "https://mikael326.github.io/Taxas-MercadoPago/",
+    "start_url": "https://mikael326.github.io/Taxas-MercadoPago/",
     "name": "pwa-taxas-MercadoPago",
     "short_name": "pwaCalculadora",
     "icons": [
